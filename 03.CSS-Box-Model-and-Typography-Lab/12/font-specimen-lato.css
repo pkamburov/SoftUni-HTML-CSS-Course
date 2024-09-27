@@ -1,0 +1,76 @@
+p {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+    padding-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+body {
+    font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+th {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+td {
+    padding: 5px;
+}
+
+table, th, tr, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+blockquote {
+    margin-bottom: 10px;
+    border-left: 3px solid lightgray;
+    margin: 1.5em 10px;
+    padding: 0.5em 20px;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:last-of-type {
+    position: relative;
+    left: 90vw;
+}
