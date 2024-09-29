@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+.component-card {
+    background-color: white;
+    border-radius: 6px;
+    width: 30%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.text-container {
+    padding: 10px 30px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.p-bold {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.p-itallic {
+    font-style: italic;
+    margin-top: 0px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
