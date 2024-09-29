@@ -1,0 +1,19 @@
+.accordion-box {
+    width: 70%;
+    margin: 30px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.accordion-box details {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-bottom: 0;
+}
+
+.accordion-box details:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+.accordion-box summary {
+    font-weight: bold;
+}
