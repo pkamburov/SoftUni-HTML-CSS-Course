@@ -31,6 +31,15 @@ body {
     margin-top: 0px;
 }
 
+.limit-lines {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
 footer {
     margin-top: 30px;
 }
