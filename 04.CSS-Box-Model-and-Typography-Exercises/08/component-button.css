@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+}
+
+section {
+    margin: 30px 0;
+}
+
+.button {
+    border: 1px solid #cfcccc;
+    border-radius: 2px;
+    background-color: #cfcccc;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 10px 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.button:first-of-type {
+    margin-left: 0px;
+}
+
+.primary {
+    background-color: orange;
+}
+
+.secondary {
+    background-color: yellow;
+}
+
+.outline {
+    background-color: white;
+}
+
