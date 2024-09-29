@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+.main-container {
+    border: 2px solid green;
+    max-height: 70vh;
+    margin: 0px;
+}
+
+.centered-container {
+    max-width: 70vw;
+    margin: 20px auto;
+    border: 2px solid blue;
+}
+
+.inner-container {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.inner-container p {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
