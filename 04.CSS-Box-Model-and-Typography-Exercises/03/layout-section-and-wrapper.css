@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    border: 2px solid green;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.inner-container {  
+    border: 2px solid blue;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.inner-container p {
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
