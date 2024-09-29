@@ -1,0 +1,10 @@
+.container {
+    font-family: 'Lato', sans-serif;
+}
+
+.container i {
+    font-size: 25px;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 100%;
+}
