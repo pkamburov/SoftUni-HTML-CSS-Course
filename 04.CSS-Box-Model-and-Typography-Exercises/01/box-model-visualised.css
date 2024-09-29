@@ -1,0 +1,39 @@
+.main-container {
+    background: coral;
+    max-width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px dashed #666;
+}
+
+.margin {
+    background: rgb(255 151 114);
+}
+
+.border {
+    background: rgb(255 233 200);
+}
+
+.padding {
+    background: lightgreen;
+}
+
+.content {
+    background: lightblue;
+    text-align: center;
+    font-size: large;
+}
+
+.main-container div {
+    padding: 30px;
+    border: 1px dashed #666;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -15px;
+}
