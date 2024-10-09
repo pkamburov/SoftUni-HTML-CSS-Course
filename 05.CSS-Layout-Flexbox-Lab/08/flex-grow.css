@@ -1,0 +1,35 @@
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+
+.flex-grow-one {
+    flex-grow: 1;
+}
+
+.flex-grow-2nd-only {
+    flex-grow: 1;
+}
+
+.flex-grow-proportional-first {
+    flex-grow: 1;
+}
+
+.flex-grow-proportional-second {
+    flex-grow: 2;
+}
+
+.flex-grow-proportional-last {
+    flex-grow: 3;
+}
