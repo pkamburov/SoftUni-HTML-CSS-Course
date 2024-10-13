@@ -1,0 +1,95 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    line-height: 24px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #fff;
+    margin: 20px 30px;
+}
+
+summary {
+    display: block;
+    cursor: pointer;
+}
+
+summary::marker {
+    display: none;
+}
+
+summary:focus {
+    outline: none;
+}
+
+.tree-container li {
+    display: block;
+    position: relative;
+    padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
+}
+
+.tree-container {
+    --spacing: 1.5rem;
+    --radius: 10px;
+    padding-left: 0;
+}
+
+.tree-container ul {
+    padding-left: 0;
+    margin-left: calc(var(--radius) - var(--spacing));
+}
+
+.tree-container ul li {
+    border-left: 3px solid #ddd;
+}
+
+.tree-container ul li:last-child {
+    border-color: transparent;
+}
+
+.tree-container summary::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(var(--spacing) / 2 - var(--radius));
+    left: calc(var(--spacing) - var(--radius) - 1px);
+    width: calc(2 * var(--radius));
+    height: calc(2 * var(--radius));
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.tree-container summary::before {
+    z-index: 1;
+    background: #696 url('expand-collapse.svg') 0 0;
+}
+
+.tree-container details[open] > summary::before {
+    background-position: calc(-2 * var(--radius)) 0;
+  }
+
+.tree-container ul li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(var(--spacing) / -2);
+    left: -3px;
+    width: calc(var(--spacing) + 2px);
+    height: calc(var(--spacing) + 1px);
+    border: solid #ddd;
+    border-width: 0 0 3px 3px;
+    border-radius: 3px;
+}
+
+details[open] {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
