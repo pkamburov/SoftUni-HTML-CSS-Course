@@ -1,0 +1,94 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #eee;
+}
+
+.main-container {
+    width: 80%;
+    margin: 40px auto;
+    vertical-align: middle;
+    display: flex;
+    gap: 30px;
+}
+
+.quote {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    padding: 20px;
+    align-items: center;
+}
+
+.quote .left-side {
+    flex: 0 0 70%;
+}
+
+.quote .right-side {
+    flex: 0 0 30%;
+}
+
+.left-side i {
+    font-size: 38px;
+}
+
+.outer-circle {
+    background-color: white;
+    padding: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+    height: 160px;
+    width: 70%;
+    margin: auto;
+}
+
+.inner-circle {
+    background-color: green;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 600;
+    color: black !important;
+    margin-top: 40px;
+}
+
+.quote p {
+    color: gray;
+    padding-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+}
+
+aside .quote {
+    display: block;
+    flex-grow: 1;
+}
+
+aside .right-side .outer-circle {
+    height: 120px;
+    width: 120px;
+    margin: 0;
+}
