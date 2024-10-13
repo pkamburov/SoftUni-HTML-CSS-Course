@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main-container {
+    border: 2px solid green;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-container header,
+.main-container footer,
+.main-container main {
+    padding: 30px;
+    border: 2px solid blue;
+}
+
+.main-container main {
+    flex: 1 1 70%;
+}
